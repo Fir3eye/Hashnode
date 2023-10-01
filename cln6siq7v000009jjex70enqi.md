@@ -4,6 +4,7 @@ seoTitle: "Install Minikube and Kubectl on Ubuntu"
 datePublished: Sun Oct 01 2023 01:35:39 GMT+0000 (Coordinated Universal Time)
 cuid: cln6siq7v000009jjex70enqi
 slug: minikube-and-kubectl-setup-on-ubuntu
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696130920267/36e93ddf-d914-4676-9c73-e74a3bc665a5.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696125185470/0a01e197-2293-4787-8929-e0bfa67a1884.png
 tags: kubernetes, devops, kubectl, minikube
 
