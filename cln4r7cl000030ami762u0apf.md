@@ -1,8 +1,8 @@
 ---
-title: "Project-1.CI/CD Pipeline Using Jenkins and Docker"
+title: "Project-1. CI/CD Pipeline Using Jenkins and Docker"
 datePublished: Fri Sep 29 2023 15:23:16 GMT+0000 (Coordinated Universal Time)
 cuid: cln4r7cl000030ami762u0apf
-slug: project-1cicd-pipeline-using-jenkins-and-docker
+slug: project-1-cicd-pipeline-using-jenkins-and-docker
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696000840148/1a50053c-c7b4-4ce2-8cc0-a1b81caf639d.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1696000963300/461c059c-614b-4b4e-ab21-bfa8329ad287.png
 tags: docker, github, jenkins, docker-images, ec2-instance
