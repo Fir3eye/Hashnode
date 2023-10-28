@@ -9,14 +9,14 @@ tags: bash, script, figlet-font-file, figlet, lolcat
 
 ---
 
-> **Install figlet**
+> ## **Install figlet**
 
 ```bash
 apt install figlet
-apt install lolcat 
+apt install lolcat
 ```
 
-> **You will face this Error if the file is not present**
+> ## **You will face this Error if the file is not present**
 
 ```bash
 figlet -d doom "Sen DevOps"
@@ -29,7 +29,7 @@ figlet -d doom "Sen DevOps"
 <div data-node-type="callout-text"><strong>Error - figlet: umscript: Unable to open font file</strong></div>
 </div>
 
-> Fix this
+> ## Fix this
 
 * Step -1. Go to the figlet directory
     
