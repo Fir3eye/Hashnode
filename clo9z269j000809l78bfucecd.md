@@ -10,7 +10,7 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ---
 
-**Lecture - 01 Solution Architect Associate**
+## **Lecture - 01 Solution Architect Associate**
 
 **\=================================**
 
@@ -74,14 +74,12 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
         
     * Professional
         
-
 * **AWS - DevOps**
     
     * Associate
         
     * Professional
         
-
 * **AWS - SysOps**
     
     * Associate
@@ -91,13 +89,17 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ---
 
-**Lecture - 2 Services in the Cloud**
+## **Lecture - 2 Services in the Cloud**
 
 **\========================**
 
 **Services  model-:**
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>On-Premises</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;very costly and&nbsp; this is physically</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>IAAS</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;Infrastructure as a service ----&gt;| Cloud Storage | Web-hosted VMs |</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>PAAS</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;Platform as a service ----&gt; | Web-hosted| Databases | Web-Servers |</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>SAAS</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;Software as a services -----&gt;&nbsp; | Email | Social media | Online Game | CRM- Customer Relationship Management</p></td></tr></tbody></table>
+| **On-Premises** | very costly and  this is physically |
+| --- | --- |
+| **IAAS** | Infrastructure as a service ----&gt;| Cloud Storage | Web-hosted VMs | |
+| **PAAS** | Platform as a service ----&gt; | Web-hosted| Databases | Web-Servers | |
+| **SAAS** | Software as a services -----&gt;  | Email | Social media | Online Game | CRM- Customer Relationship Management |
 
 **Databases**
 
@@ -122,7 +124,10 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 **Hypervisor -** This is a way of virtualizing using of infra - (Network, Storage, Server)
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>AWS</strong></p></td><td colspan="1" rowspan="1"><p>Citrix</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Azure</strong></p></td><td colspan="1" rowspan="1"><p>Visphere ES-XI</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Microsoft</strong></p></td><td colspan="1" rowspan="1"><p>Hyper-V</p></td></tr></tbody></table>
+| **AWS** | Citrix |
+| --- | --- |
+| **Azure** | Visphere ES-XI |
+| **Microsoft** | Hyper-V |
 
 **Cloud Security Maintenance**
 
@@ -141,18 +146,14 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ---
 
-**Lecture - 3 Create Account**
+## **Lecture - 3 Create Account**
 
 **\======================**
 
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">Questions</div>
-</div>
+## Questions:
 
 * **What is the Cloud?**
     
-
 * What is AWS?
     
 * What are the Stands for AWS?
@@ -173,7 +174,6 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
     
 * What is Cloud Security?
     
-
 * What is the CIA?
     
 * What is a Data Breach?
