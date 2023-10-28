@@ -10,9 +10,9 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ---
 
-## **Lecture - 01 Solution Architect Associate**
+## **Lecture - 1 Solution Architect Associate**
 
-**\=================================**
+**\====================================================**
 
 **Cloud - Use Another Server using by internet and this is - pay as you go model**
 
@@ -91,7 +91,7 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ## **Lecture - 2 Services in the Cloud**
 
-**\========================**
+**\==========================================**
 
 **Services  model-:**
 
@@ -148,7 +148,7 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ## **Lecture - 3 Create Account**
 
-**\======================**
+**\====================================**
 
 ## Questions:
 
