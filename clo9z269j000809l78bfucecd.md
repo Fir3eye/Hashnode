@@ -12,8 +12,6 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ## **Lecture - 1 Solution Architect Associate**
 
-**\====================================================**
-
 **Cloud - Use Another Server using by internet and this is - pay as you go model**
 
 **AWS - Amazone Web Services**
@@ -32,6 +30,9 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
     
 * Room
     
+
+| **Company - A** | **Opex - Operational Expenditure** |
+| --- | --- |
 
 **Opex - Operational Expenditure**
 
@@ -91,15 +92,13 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ## **Lecture - 2 Services in the Cloud**
 
-**\==========================================**
-
 **Services  model-:**
 
 | **On-Premises** | very costly and  this is physically |
 | --- | --- |
-| **IAAS** | Infrastructure as a service ----&gt;| Cloud Storage | Web-hosted VMs | |
-| **PAAS** | Platform as a service ----&gt; | Web-hosted| Databases | Web-Servers | |
-| **SAAS** | Software as a services -----&gt;  | Email | Social media | Online Game | CRM- Customer Relationship Management |
+| **IAAS** | Infrastructure as a service ----&gt; |
+| **PAAS** | Platform as a service ----&gt; |
+| **SAAS** | Software as a services -----&gt; |
 
 **Databases**
 
@@ -148,7 +147,7 @@ tags: aws, aws-cloud-practitioner, aws-introduction, aws-cloud-practitioner-cert
 
 ## **Lecture - 3 Create Account**
 
-**\====================================**
+---
 
 ## Questions:
 
