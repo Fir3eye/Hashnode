@@ -92,8 +92,10 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 7. Previous generation
     
 
-1. ### **General Purpose Instance:-**
-    
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>General Purpose Instance</strong></div>
+</div>
 
 > **General-purpose instances:- Provide a balance of computing memory and networking resources and can be used for a variety of workloads.**
 
@@ -149,8 +151,10 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-1. ### **Compute Optimized Instances**
-    
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>Compute Optimized Instances</strong></div>
+</div>
 
 **Compute Optimized:- Ek Sath bahut sari process (Batch Process /Parrallel Processing )ko execute karne ke liya ham Cpmpute Optimized Instances ka use karte hain.**
 
@@ -196,8 +200,10 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-1. ### **Memory Optimized Instances**
-    
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>Memory Optimized Instances</strong></div>
+</div>
 
 **Note -: where you need high memory instances so use this instances**
 
@@ -209,8 +215,10 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-1. ### **Storage Optimized Instances**
-    
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>Storage Optimized Instances</strong></div>
+</div>
 
 **What is SOI?**
 
@@ -234,8 +242,10 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-1. ### **Acelerating Computing  Instance**
-    
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>Acelerating Computing&nbsp; Instance</strong></div>
+</div>
 
 * **Using for live processing**
     
