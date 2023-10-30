@@ -92,7 +92,8 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 7. Previous generation
     
 
-### **General Purpose Instance:-**
+1. ### **General Purpose Instance:-**
+    
 
 > **General-purpose instances:- Provide a balance of computing memory and networking resources and can be used for a variety of workloads.**
 
@@ -101,7 +102,10 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 <div data-node-type="callout-text"><strong>3 Series in General Purpose</strong></div>
 </div>
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>A - Series</strong></p></td><td colspan="1" rowspan="1"><p><strong>A1 medium</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>T - Series</strong></p></td><td colspan="1" rowspan="1"><p><strong>T2, t2 micro, t3, t3a</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>M - Series</strong></p></td><td colspan="1" rowspan="1"><p><strong>M4, M5, M5d</strong></p></td></tr></tbody></table>
+| **A - Series** | **A1 medium** |
+| --- | --- |
+| **T - Series** | **T2, t2 micro, t3, t3a** |
+| **M - Series** | **M4, M5, M5d** |
 
 > **A1- Instances**
 
@@ -145,7 +149,100 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
+1. ### **Compute Optimized Instances**
+    
+
+**Compute Optimized:- Ek Sath bahut sari process (Batch Process /Parrallel Processing )ko execute karne ke liya ham Cpmpute Optimized Instances ka use karte hain.**
+
+* **High Performance Processor**
+    
+* **Cost Effective**
+    
+* **C - Series (c3,c4,c5)**
+    
+* **Good Speed**
+    
+* **Only EBS Storage**
+    
+
+**User Cases - High Performance, Webserver, Gaming, Video, Encoding**
+
+* **C5 Support max 25 EBS Volumes**
+    
+* **C5 use Elastic network Adapter**
+    
+* **C5 uses new EC2 Hypervisor**
+    
+
+**ENA - for improving your network is used ENA.**
+
+---
+
+### Questions:-
+
+* **What is compute optimized?**
+    
+* **What is batch processing?**
+    
+* **What is Parrallel processing?**
+    
+* **How many types of Series in compute optimized?**
+    
+
+* **How many EBS volume support -25 EBS volume?**
+    
+* **Which hypervisor use this - nitro hypervisor?**
+    
+
+---
+
+1. ### **Memory Optimized Instances**
+    
+
+**Note -: where you need high memory instances so use this instances**
+
+<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Ex -</strong></p></td><td colspan="1" rowspan="1"><p><strong>&nbsp;for using space monitoring</strong></p></td></tr></tbody></table>
+
+**Designing for fast performance**
+
+<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>R= R4,R5, R5ad, R5d</strong></p></td><td colspan="1" rowspan="1"><p><strong>X = x1, x1e</strong></p></td><td colspan="1" rowspan="1"><p><strong>Z -z1d</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>High Performance</strong></p></td><td colspan="1" rowspan="1"><p><strong>High performance database</strong></p></td><td colspan="1" rowspan="1"><p><strong>1.8 tb</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>RAM is enough</strong></p></td><td colspan="1" rowspan="1"><p><strong>This is use for scientific reason</strong></p></td><td colspan="1" rowspan="1"><p><strong>SSD storage</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Use in relational database</strong></p></td><td colspan="1" rowspan="1"><p><strong>Use in relational database mysql</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Use in-memory caching</strong></p></td><td colspan="1" rowspan="1"><p><strong>Nasa me iska use kiya jata hai</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Instance storage - EBS, Only and NVM, SSD</strong></p></td><td colspan="1" rowspan="1"><p><strong>Nvm, SSD</strong></p></td><td colspan="1" rowspan="1"><p></p></td></tr></tbody></table>
+
+---
+
+1. ### **Storage Optimized Instances**
+    
+
+**What is SOI?**
+
+* **Use design for workload for hight and**
+    
+* **Sequential read and write access to very large data .**
+    
+* **At the same time are using upload and download**
+    
+
+> Types of Series
+
+<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>I=i3 and i3en</strong></p></td><td colspan="1" rowspan="1"><p><strong>D</strong></p></td><td colspan="1" rowspan="1"><p><strong>H</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>&lt;</strong></p></td><td colspan="1" rowspan="1"><p><strong>&lt;</strong></p></td><td colspan="1" rowspan="1"><p><strong>&lt;</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Advanced</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td><td colspan="1" rowspan="1"><p><strong>16 HDD Based local storage</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Nvme , SSD</strong></p></td><td colspan="1" rowspan="1"><p><strong>SSD</strong></p></td><td colspan="1" rowspan="1"><p><strong>HDD</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Sequential throughput</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td></tr></tbody></table>
+
+* **Direct Attach Storage - which storage attach with your system is called direct attach storage.**
+    
+* **Network Attach Storage - EBS , Jo kahi or rakhi hoti hain or hamare system ke sath attach hoti hai .**
+    
+* **Nitro System - A kind of hypervisor.**
+    
+
+---
+
+1. ### **Acelerating Computing  Instance**
+    
+
+* **Using for live processing**
+    
+* **Live streaming**
+    
+
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">To Be Continued.....</div>
+<div data-node-type="callout-text">To be continued....</div>
 </div>
