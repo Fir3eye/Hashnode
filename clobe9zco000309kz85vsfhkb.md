@@ -99,10 +99,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 > **General-purpose instances:- Provide a balance of computing memory and networking resources and can be used for a variety of workloads.**
 
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text"><strong>3 Series in General Purpose</strong></div>
-</div>
+> 3 Series in General Purpose
 
 | **A - Series** | **A1 medium** |
 | --- | --- |
