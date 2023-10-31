@@ -9,7 +9,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-## **Lecture - 4  Elastic Compute Cloud**
+## **Elastic Compute Cloud**
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
@@ -54,7 +54,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-## **Questions:-**
+> Questions:-
 
 * **What is the Stand for EC2?**
     
@@ -73,7 +73,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-## **Lecture - 5  Type of Instances**
+## **Type of Instances**
 
 > **Types of Instances:-**
 
@@ -142,7 +142,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-## **Questions:-**
+> Questions:-
 
 * **What is a General Purpose instance?**
     
@@ -182,7 +182,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-### Questions:-
+> Questions:-
 
 * **What is compute optimized?**
     
