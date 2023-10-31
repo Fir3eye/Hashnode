@@ -192,7 +192,6 @@ tags: cloud, ec2, aws, scalability, ec2-instance
     
 * **How many types of Series in compute optimized?**
     
-
 * **How many EBS volume support -25 EBS volume?**
     
 * **Which hypervisor use this - nitro hypervisor?**
@@ -211,7 +210,13 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 **Designing for fast performance**
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>R= R4,R5, R5ad, R5d</strong></p></td><td colspan="1" rowspan="1"><p><strong>X = x1, x1e</strong></p></td><td colspan="1" rowspan="1"><p><strong>Z -z1d</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>High Performance</strong></p></td><td colspan="1" rowspan="1"><p><strong>High performance database</strong></p></td><td colspan="1" rowspan="1"><p><strong>1.8 tb</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>RAM is enough</strong></p></td><td colspan="1" rowspan="1"><p><strong>This is use for scientific reason</strong></p></td><td colspan="1" rowspan="1"><p><strong>SSD storage</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Use in relational database</strong></p></td><td colspan="1" rowspan="1"><p><strong>Use in relational database mysql</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Use in-memory caching</strong></p></td><td colspan="1" rowspan="1"><p><strong>Nasa me iska use kiya jata hai</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Instance storage - EBS, Only and NVM, SSD</strong></p></td><td colspan="1" rowspan="1"><p><strong>Nvm, SSD</strong></p></td><td colspan="1" rowspan="1"><p></p></td></tr></tbody></table>
+| **R= R4,R5, R5ad, R5d** | **X = x1, x1e** | **Z -z1d** |
+| --- | --- | --- |
+| **High Performance** | **High performance database** | **1.8 tb** |
+| **RAM is enough** | **This is use for scientific reason** | **SSD storage** |
+| **Use in relational database** | **Use in relational database mysql** |  |
+| **Use in-memory caching** | **Nasa me iska use kiya jata hai** |  |
+| **Instance storage - EBS, Only and NVM, SSD** | **Nvm, SSD** |  |
 
 ---
 
@@ -231,7 +236,12 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 > Types of Series
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>I=i3 and i3en</strong></p></td><td colspan="1" rowspan="1"><p><strong>D</strong></p></td><td colspan="1" rowspan="1"><p><strong>H</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>&lt;</strong></p></td><td colspan="1" rowspan="1"><p><strong>&lt;</strong></p></td><td colspan="1" rowspan="1"><p><strong>&lt;</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Advanced</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td><td colspan="1" rowspan="1"><p><strong>16 HDD Based local storage</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Nvme , SSD</strong></p></td><td colspan="1" rowspan="1"><p><strong>SSD</strong></p></td><td colspan="1" rowspan="1"><p><strong>HDD</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Sequential throughput</strong></p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td><td colspan="1" rowspan="1"><p>&nbsp;</p></td></tr></tbody></table>
+| **I=i3 and i3en** | **D** | **H** |
+| --- | --- | --- |
+| **&lt;** | **&lt;** | **&lt;** |
+| **Advanced** |  | **16 HDD Based local storage** |
+| **Nvme , SSD** | **SSD** | **HDD** |
+| **Sequential throughput** |  |  |
 
 * **Direct Attach Storage - which storage attach with your system is called direct attach storage.**
     
@@ -251,8 +261,53 @@ tags: cloud, ec2, aws, scalability, ec2-instance
     
 * **Live streaming**
     
+* **FPGA use in real time processing like you are recording video**
+    
+* **Series (PGF)**
+    
+
+---
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">To be continued....</div>
+<div data-node-type="callout-text">High Memory Instances</div>
 </div>
+
+* **High memory performance**
+    
+* **This is only work on Dedicated host**
+    
+* **Purchasing only for 3 year**
+    
+* **Os installed directly on hardware**
+    
+* **Baremetal instance - os seedha hardware me install hoga** 
+    
+* **This is U series**
+    
+* **448 logical processor**
+    
+
+> **Baremetal - hardware me os installed hota hai**
+
+**Elastic IP = Static Ip**
+
+---
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text"><strong>Previous Generation Instances</strong></div>
+</div>
+
+* **Can we purchase right now - yes**
+    
+* **When your billing start - start from rebooting**
+    
+* **Pay per second option are available only linux and ubuntu not in windows server**
+    
+
+---
+
+### **EC2 Instance Purchasing Options**
+
+<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>On-Demand</strong></p></td><td colspan="1" rowspan="1"><p><strong>Using for testing purpose so you can go with this instance,</strong> <strong>Use for Short term goals,</strong> <strong>For testing Purpose</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Dedicated Instance</strong></p></td><td colspan="1" rowspan="1"><p><strong>Only dedicated instances are available in The Dedicated instances</strong> While stop - no bill generate</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Dedicated Host</strong></p></td><td colspan="1" rowspan="1"><p><strong>Physical server where is running your instances , If you are using license for software so you can use dedicated host</strong>, <strong>While stop - no bill generate,</strong> <strong>Can you migrate - no</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Spot Instances</strong></p></td><td colspan="1" rowspan="1"><p><strong>This is very cheap instances.</strong> <strong>This is free instances are available in spot instance.</strong> <strong>This is using for testing purpose.</strong> <strong>Aws ye Kabhi bhi le skte hi jab uski price badh jayegi</strong> <strong>Stop - karoge to sab data ud jayega</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Schedule Instances</strong></p></td><td colspan="1" rowspan="1"><p><strong>If your office open only sat, sun so you can use schedule instances</strong> <strong>You pay for the price, if you are use or not doesn't matter.</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Reserved Instance</strong></p></td><td colspan="1" rowspan="1"><p><strong>You can reserve for 1-3 yeas</strong></p></td></tr></tbody></table>
