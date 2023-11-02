@@ -208,7 +208,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 <table><tbody><tr><td colspan="1" rowspan="1"><p><strong>Ex -</strong></p></td><td colspan="1" rowspan="1"><p><strong>&nbsp;for using space monitoring</strong></p></td></tr></tbody></table>
 
-**Designing for fast performance**
+> **Designing for fast performance**
 
 | **R= R4,R5, R5ad, R5d** | **X = x1, x1e** | **Z -z1d** |
 | --- | --- | --- |
@@ -320,10 +320,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ---
 
-<div data-node-type="callout">
-<div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">EC2 Instance</div>
-</div>
+### EC2 Instance :- Few important point
 
 > **EC2 Access**
 
