@@ -281,7 +281,7 @@ tags: cloud, ec2, aws, scalability, ec2-instance
     
 * **Os installed directly on hardware**
     
-* **Baremetal instance - os seedha hardware me install hoga** 
+* **Baremetal instance - os seedha hardware me install hoga**
     
 * **This is U series**
     
@@ -310,4 +310,81 @@ tags: cloud, ec2, aws, scalability, ec2-instance
 
 ### **EC2 Instance Purchasing Options**
 
-<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>On-Demand</strong></p></td><td colspan="1" rowspan="1"><p><strong>Using for testing purpose so you can go with this instance,</strong> <strong>Use for Short term goals,</strong> <strong>For testing Purpose</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Dedicated Instance</strong></p></td><td colspan="1" rowspan="1"><p><strong>Only dedicated instances are available in The Dedicated instances</strong> While stop - no bill generate</p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Dedicated Host</strong></p></td><td colspan="1" rowspan="1"><p><strong>Physical server where is running your instances , If you are using license for software so you can use dedicated host</strong>, <strong>While stop - no bill generate,</strong> <strong>Can you migrate - no</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Spot Instances</strong></p></td><td colspan="1" rowspan="1"><p><strong>This is very cheap instances.</strong> <strong>This is free instances are available in spot instance.</strong> <strong>This is using for testing purpose.</strong> <strong>Aws ye Kabhi bhi le skte hi jab uski price badh jayegi</strong> <strong>Stop - karoge to sab data ud jayega</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Schedule Instances</strong></p></td><td colspan="1" rowspan="1"><p><strong>If your office open only sat, sun so you can use schedule instances</strong> <strong>You pay for the price, if you are use or not doesn't matter.</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Reserved Instance</strong></p></td><td colspan="1" rowspan="1"><p><strong>You can reserve for 1-3 yeas</strong></p></td></tr></tbody></table>
+| **On-Demand** | **Using for testing purpose so you can go with this instance,** **Use for Short term goals,** **For testing Purpose** |
+| --- | --- |
+| **Dedicated Instance** | **Only dedicated instances are available in The Dedicated instances** While stop - no bill generate |
+| **Dedicated Host** | **Physical server where is running your instances , If you are using license for software so you can use dedicated host**, **While stop - no bill generate,** **Can you migrate - no** |
+| **Spot Instances** | **This is very cheap instances.** **This is free instances are available in spot instance.** **This is using for testing purpose.** **Aws ye Kabhi bhi le skte hi jab uski price badh jayegi** **Stop - karoge to sab data ud jayega** |
+| **Schedule Instances** | **If your office open only sat, sun so you can use schedule instances** **You pay for the price, if you are use or not doesn't matter.** |
+| **Reserved Instance** | **You can reserve for 1-3 yeas** |
+
+---
+
+<div data-node-type="callout">
+<div data-node-type="callout-emoji">💡</div>
+<div data-node-type="callout-text">EC2 Instance</div>
+</div>
+
+> **EC2 Access**
+
+* To access instances, you need a key and key pair name
+    
+* **You can download the private key only once**
+    
+* **The public key is saved by AWS to match it to the key pair name and private key when you try to login to the EC2 instances**
+    
+* **Without key pair you cannot access instances via RDP or SSH**
+    
+* **20instances per region**
+    
+
+> **EC2 Status Check**
+
+* **By Default AWS EC2 service performs automated status checks every one minute.**
+    
+* **EC2 services can send its metric data to aws CloudWatch Every 5 minute (Enable By Default)**
+    
+* **There is no charged if instances will be  stop.**
+    
+
+> **Two Type of  Storage**
+
+<table><tbody><tr><td colspan="1" rowspan="1" colwidth="379"><p><strong>EBS backed EC2 instance - Network Attached storage</strong></p></td><td colspan="1" rowspan="1"><p><strong>It means Jiska Root volume&nbsp; EBS hai - At where your os is installed</strong></p></td></tr><tr><td colspan="1" rowspan="1" colwidth="379"><p><strong>Instance Store Backed EC2 instance - Direct Attached Storage</strong></p></td><td colspan="1" rowspan="1"><p><strong>It means Jiska Root Volume EC2 instance hai - At where your os is installed</strong></p></td></tr></tbody></table>
+
+> **When you Stop an EBS Backed EC2 Instance**
+
+* **Instance perform a shutdown**
+    
+* **State changes from running --&gt; stopping**
+    
+* **EBS volume remain attached to the instance**
+    
+* **Any data cached in  RAM or instances store volume**
+    
+
+> **EC2 Termination**
+
+* **When you terminate a running instances the instance states changes as follow -**
+    
+    * **Running ---&gt; Shutting down ---&gt; Terminated**
+        
+
+* **During the shutting down and terminated states, you do not changes**
+    
+* **By default EBS root devices volumes are deleted automatically when the EC2 instances are terminated**
+    
+* **if you untic the termination policy so volume will not be terminated ---&gt; termination proteciton**
+    
+
+> **EC2 Metadata - Information of instances is called is metadata**
+
+* **Ex - IP**
+    
+* **Metadata is not protected by encryption**
+    
+* **You can check metadata of instances   -** [**http://169.254.169.254/latest/meta-data/**](http://169.254.169.254/latest/meta-data/)
+    
+
+> **Diff b/w Elastic Block Storage /Instance Storage**
+
+<table><tbody><tr><td colspan="1" rowspan="1"><p><strong>EBS</strong></p></td><td colspan="1" rowspan="1"><p><strong>Instances Storage</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Most common, replicate with A-Z</strong></p></td><td colspan="1" rowspan="1"><p><strong>Physically attach to the host server</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>If detached EBS&nbsp; from instances so it is not&nbsp; affect to ec2&nbsp;</strong></p></td><td colspan="1" rowspan="1"><p><strong>Data not lost when os is rebooted</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>Network attach storage (NAS)</strong></p></td><td colspan="1" rowspan="1"><p><strong>Direct Attach Storage (DAS)</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>&nbsp;it is not</strong></p></td><td colspan="1" rowspan="1"><p><strong>Faster</strong></p></td></tr><tr><td colspan="1" rowspan="1"><p><strong>You can DE attach the EBS</strong></p></td><td colspan="1" rowspan="1"><p><strong>You cannot DE attach the Instance Storage</strong></p></td></tr></tbody></table>
