@@ -9,8 +9,6 @@ tags: docker, github, kubernetes, devops, cicd-cjy1vtdk2005kjjs17n8couc3
 
 ---
 
-# **Deploy Java Application On Kubernetes**
-
 ### **Pre-requisite:-**
 
 * Java application
@@ -34,8 +32,6 @@ tags: docker, github, kubernetes, devops, cicd-cjy1vtdk2005kjjs17n8couc3
     
 * Pull the image from the Docker registry and Deploy to the Kubernetes Cluster
     
-
-### Command
 
 ### Step -1. **<mark>Update</mark>** the machine
 
