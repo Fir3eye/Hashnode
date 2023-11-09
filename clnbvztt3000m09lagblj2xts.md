@@ -37,73 +37,154 @@ tags: docker, github, kubernetes, devops, cicd-cjy1vtdk2005kjjs17n8couc3
 
 ### Command
 
+### Step -1. **<mark>Update</mark>** the machine
+
 ```bash
-# Docker Install 
+sudo apt update
+```
+
+### Step -2. Install **<mark> Docker</mark>**
+
+```bash
 sudo apt install docker.io
-# Install Kubernetes and minikube
-https://hashnode.com/post/cln6siq7v000009jjex70enqi
-# Clone the code and push to own repo github 
-sudo git clone https://github.com/Fir3eye/docker-java-kubernetes-project.git
-# How to Push code follow these step 
-sudo git remote -v  # check the repo url 
-# Set the own repo url
-sudo git remote set-url origin <our_repo_URL>
-#check the url is set 
-sudo git remote -v 
-# send code to staging Area
-sudo git add .
-# Send to local repo 
-sudo git commit -m "first commit"
-# Now ready to push the repo on own central repo 
-sudo git push -u origin  main # check our branch and specify instead of main 
-#username: abc
-#password: token generate from github 
 ```
 
-### Build the image
+### Step -3. Install **<mark>Maven</mark>**
 
 ```bash
-# Build the image from Dockerfile
-docker build -t fir3eye/myimg:latest .
-# Check images
-docker images
-# Run the container
-docker run -t -p 8000:8000 myimg
-# Check container is runnig or not 
-docker ps 
-# if port is busy so check 
-netstat -lntp
-# kill the port if busy 
-kill -9 pid
+sudo apt install maven
+mvn --version
+# Setup Environment Variable
+export MAVEN_HOME=/usr/share/maven
+# Verify
+echo $MAVEN_HOME
 ```
 
-### Push image on DockerHub
+### Step -4. **<mark>Clone</mark>** the code from **<mark>Github</mark>**
 
 ```bash
-# First Login the Docker account
-docker login # give access
-# push the images
-docker push docker_account_name/image_name # docker push fir3eye/myimg:latest
-# Go and check our docker repo
+git clone https://github.com/Fir3eye/docker-java-kubernetes-project.git
 ```
 
-### Kubernetes Command
+### Step -5. Build the image
+
+<details data-node-type="hn-details-summary"><summary>There are three micro-service</summary><div data-type="detailsContent">&lt; shopfront &gt;, &lt; productcatal &gt;, &lt; stockmanager &gt;</div></details>
+
+> Build the first image **<mark>&lt; shopfront &gt;</mark>**
+> 
+> Note:- Instead of fir3eye you give our username of dockerhub.
 
 ```bash
-# check the pods
+# Before building the image run this command
+mvn clean install
+docker build -t fir3eye/shopfront:latest .
+```
+
+> Build the second image **<mark>&lt; productcatal &gt;</mark>**
+
+```bash
+# Before building the image run this command
+mvn clean install
+docker build -t fir3eye/productcatal:latest .
+```
+
+> Build the Third microservice **<mark>&lt; stockmanager &gt;</mark>**
+
+```bash
+# Before building the image run this command
+mvn clean install
+docker build -t fir3eye/stockmanager:latest .
+```
+
+> Check the images
+
+```bash
+sudo docker images
+```
+
+### Step -6. **<mark>Push</mark>** the images on **<mark>DockerHub</mark>**
+
+> first you need login to Docker hub using the below command
+
+```bash
+# Login Docker on your Terminal
+sudo docker login
+```
+
+> Give the username of password of the docker account, if the password is not working, one solution create a token and give it instead of the password.
+> 
+> After successful login
+
+```bash
+# Push the Image on docker hub
+docker push fir3eye/shopfront:latest
+docker push fir3eye/productcatal:latest 
+docker push fir3eye/stockmanager:latest
+```
+
+> Logout Docker
+
+```bash
+docker logout
+```
+
+### Step -7. Setup <mark> Minikube</mark> and **<mark>Kubectl</mark>**
+
+> Install Minikube
+
+```bash
+sudo wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo cp minikube-linux-amd64 /usr/local/bin/minikube
+sudo chmod 755 /usr/local/bin/minikube
+```
+
+> Install kubectl
+
+```bash
+sudo curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+
+sudo chmod +x kubectl
+sudo mv kubectl /usr/local/bin/Kubectl
+sudo minikube start --driver=docker
+sudo usermod -aG docker $USER && newgrp docker
+Minikube status
+```
+
+### Step -8. App Deploy on **<mark>Kubernetes</mark>**
+
+```bash
+kubectl apply -f shopfront-service.yaml
+kubectl apply -f productcatal-service.yaml
+kubectl apply -f stockmanager-service.yaml
+```
+
+> Check the Pods, deployments, services
+
+```bash
 kubectl get pods
-# Apply the our deployment file
-kubectl apply -f deployment.yml
-# check the deployment
 kubectl get deployment
-# Check service
 kubectl get svc
-# After deployment check the ip 
+```
+
+> Get the Service URL
+
+```bash
+kubectl get service
+```
+
+> Copy the URL
+
+```bash
 minikube service <service_name>
-# You would not be access from the internet, 
-# For accessing from the internet , you will have to do port-forwarding
+```
+
+> Port Forward
+
+```bash
+# You would not have access from the internet, 
+# For accessing from the internet, you will have to do port-forwarding
 kubectl port-forward svc/myservice 8000:8000 --address 0.0.0.0 &
-# now you can access the web from the internet copy ip and use our port 
+# now you can access the web from the internet copy ip and use our port
 ```
 
 <div data-node-type="callout">
