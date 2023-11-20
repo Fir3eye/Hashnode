@@ -60,6 +60,8 @@ ssh ubuntu@IP -i "key_name"
 
 ```bash
 sudo apt install docker.io
+sudo chmod 777 /var/run/docker.sock
+sudo usermod -aG docker jenkins
 ```
 
 ## Step-3. Create a Docker Hub Account
