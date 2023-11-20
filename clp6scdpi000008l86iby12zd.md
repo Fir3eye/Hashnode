@@ -120,11 +120,11 @@ sudo apt-get install jenkins
 
 ## Step-6. Create a Job
 
-> A.
+> A. Click to new item
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700476798745/371c9d8a-b987-4974-b7d9-d1ac1abf9ad7.png align="center")
 
-> sd
+> B. Give job name and choose pipeline options
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1700476822023/efe7615f-8ac1-4af6-8aca-ef3eae30b083.png align="center")
 
