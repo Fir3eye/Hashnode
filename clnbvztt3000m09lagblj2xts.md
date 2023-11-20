@@ -1,5 +1,5 @@
 ---
-title: "📢Project - 3. Deploy Java Application On Kubernetes"
+title: "Project - 3. Deploy Java Application On Kubernetes"
 datePublished: Wed Oct 04 2023 15:11:47 GMT+0000 (Coordinated Universal Time)
 cuid: clnbvztt3000m09lagblj2xts
 slug: project-2-deploy-java-application-on-kubernetes
@@ -9,7 +9,7 @@ tags: docker, github, kubernetes, devops, cicd-cjy1vtdk2005kjjs17n8couc3
 
 ---
 
-### **Pre-requisite:-**
+### 📢🎡**Pre-requisite:-**
 
 * Java application
     
@@ -39,7 +39,7 @@ tags: docker, github, kubernetes, devops, cicd-cjy1vtdk2005kjjs17n8couc3
 sudo apt update
 ```
 
-### Step -2. Install **<mark> Docker</mark>**
+### Step -2. Install **<mark>Docker</mark>**
 
 ```bash
 sudo apt install docker.io
@@ -124,7 +124,7 @@ docker push fir3eye/stockmanager:latest
 docker logout
 ```
 
-### Step -7. Setup <mark> Minikube</mark> and **<mark>Kubectl</mark>**
+### Step -7. Setup <mark>Minikube</mark> and **<mark>Kubectl</mark>**
 
 > Install Minikube
 
