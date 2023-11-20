@@ -9,7 +9,7 @@ tags: ec2, docker, aws, jenkins, dockerhub
 
 ---
 
-## **Pre-requisites**
+## 📢🎡**Pre-requisites**
 
 1. EC2 Instance t2.micro
     
