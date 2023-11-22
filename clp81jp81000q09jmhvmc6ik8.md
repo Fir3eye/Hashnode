@@ -90,6 +90,7 @@ sudo usermod -aG docker jenkins
 
 ```bash
 sudo apt install nodejs -y
+sudo apt install npm -y
 sudo npm install -y
 ```
 
