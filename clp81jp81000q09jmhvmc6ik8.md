@@ -1,5 +1,5 @@
 ---
-title: "Project-2. Created CI/CD pipelines of Web App using Docker Jenkins AWS."
+title: "Project- 2. Created CI/CD pipelines of Web App using Docker Jenkins AWS."
 datePublished: Tue Nov 21 2023 07:55:32 GMT+0000 (Coordinated Universal Time)
 cuid: clp81jp81000q09jmhvmc6ik8
 slug: project-2-created-cicd-pipelines-of-web-app-using-docker-jenkins-aws
