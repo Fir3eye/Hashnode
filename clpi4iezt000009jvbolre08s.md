@@ -412,6 +412,8 @@ pipeline {
         }
 ```
 
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1701163471950/0ab0d8ca-1c4d-4319-a273-8337efcb3243.png align="center")
+
 ---
 
 ## **Step -7. Access the Real World Application**
