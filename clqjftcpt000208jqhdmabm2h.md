@@ -11,6 +11,25 @@ tags: ec2, github, github-actions-1, aws-ecr
 
 ## Pre-Requisites
 
+1. GitHub Account
+    
+    1. Create Repository
+        
+    2. Set Secret and Variable
+        
+    3. Code
+        
+    4. Action
+        
+2. AWS Account
+    
+    1. EC2 Instance
+        
+    2. ECR (Elastic Container Registry)
+        
+    3. IAM Access Key
+        
+
 ---
 
 ### Create Repository
