@@ -11,25 +11,6 @@ tags: ec2, github, github-actions-1, aws-ecr
 
 ## Pre-Requisites
 
-1. GitHub Account
-    
-    1. Create Repository
-        
-    2. Set Secret and Variable
-        
-    3. Code
-        
-    4. Action
-        
-2. AWS Account
-    
-    1. EC2 Instance
-        
-    2. ECR (Elastic Container Registry)
-        
-    3. IAM Access Key
-        
-
 ---
 
 ### Create Repository
@@ -206,10 +187,10 @@ git clone https://github.com/Fir3eye/fir3-Portfolio.git
 
 <div data-node-type="callout">
 <div data-node-type="callout-emoji">💡</div>
-<div data-node-type="callout-text">Note:- Specify that port which one is define on main.yaml file </div>
+<div data-node-type="callout-text">Note:- Specify that port which one is define on main.yaml file</div>
 </div>
 
- ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703415479085/d96eb6ac-1b42-4d59-a392-5285c61dd937.png align="center")
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703415479085/d96eb6ac-1b42-4d59-a392-5285c61dd937.png align="center")
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703415486223/1f133885-b565-45d8-816e-a927286e25a2.png align="center")
 
