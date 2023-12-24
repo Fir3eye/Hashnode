@@ -1,10 +1,10 @@
 ---
-title: "2. GitHub Actions Deploy Website On EC2 using ECR"
+title: "2. Deploy a Website Use EC2 and ECR using GitHub Actions"
 datePublished: Sun Dec 24 2023 12:00:07 GMT+0000 (Coordinated Universal Time)
 cuid: clqjftcpt000208jqhdmabm2h
-slug: 2-github-actions-deploy-website-on-ec2-using-ecr
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703419059455/7b2b92ab-1dd6-4b28-aa6b-623e41366f12.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1703419170817/6981bf84-e08c-4c9f-a8ce-db204efe2091.png
+slug: 2-deploy-a-website-use-ec2-and-ecr-using-github-actions
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703419619168/fcaa7c71-ea23-4780-ae8a-a87901879c35.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1703419642816/a1da8e91-f522-4ec3-869a-f7ecb06276a0.png
 tags: ec2, github, github-actions-1, aws-ecr
 
 ---
