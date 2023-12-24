@@ -249,4 +249,4 @@ git clone https://github.com/Fir3eye/fir3-Portfolio.git
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703415766472/181a8988-4501-4365-9307-2eae45a6952a.png align="center")
 
-copy link on brower :-) keep learning
+Thanks for reading :-) keep learning
