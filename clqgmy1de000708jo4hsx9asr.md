@@ -4,6 +4,7 @@ datePublished: Fri Dec 22 2023 12:56:25 GMT+0000 (Coordinated Universal Time)
 cuid: clqgmy1de000708jo4hsx9asr
 slug: 1-deploy-website-using-github-actions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703431298347/1bcdfd7b-04e2-41de-9fb6-f482569b6061.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1703431456259/696d0018-6259-4c9f-b977-1cd90f134392.png
 tags: aws, github, git, devops, s3-bucket
 
 ---
