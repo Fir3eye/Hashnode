@@ -3,7 +3,7 @@ title: "1. Deploy Website using GitHub Actions"
 datePublished: Fri Dec 22 2023 12:56:25 GMT+0000 (Coordinated Universal Time)
 cuid: clqgmy1de000708jo4hsx9asr
 slug: 1-deploy-website-using-github-actions
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1703249764238/8d79d388-0c5d-4c63-8321-cc18f36b622e.jpeg
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703431298347/1bcdfd7b-04e2-41de-9fb6-f482569b6061.png
 tags: aws, github, git, devops, s3-bucket
 
 ---
@@ -18,7 +18,7 @@ tags: aws, github, git, devops, s3-bucket
         
     3. Action
         
-    4. Create Secret Token
+    4. Set Secret Token
         
 2. AWS Account
     
@@ -120,7 +120,7 @@ git clone https://github.com/Fir3eye/fir3-Portfolio.git
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703248444406/e542c7e0-e7a0-4df7-b996-5ff407f2d1e5.png align="center")
 
-### Click on GitHub Actions  
+### Click on GitHub Actions
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1703248565844/003f86f3-efab-4372-b6ee-b81f439f5706.png align="center")
 
